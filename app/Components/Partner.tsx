@@ -10,24 +10,24 @@ export default function Partner() {
   return (
     <div className='pb-[50px] '>
 
-      <div className='flex items-center justify-center  gap-x-10 mx-auto bg-[#fff] pt-[100px]'>
+      <div className='flex items-center justify-center  gap-x-[3vw] mx-auto bg-[#fff] pt-[1vw]'>
         <div >
-            <Image src={partner1} alt=''  className='w-[150px] h-[80px]'/>
+            <Image src={partner1} alt=''  className='w-[10vw] h-auto'/>
         </div>
         <div >
-            <Image src={partner2} alt=''  className='w-[150px] h-[80px]' />
+            <Image src={partner2} alt=''  className='w-[10vw] h-auto' />
         </div>
         <div >
-            <Image src={partner4} alt=''  className='w-[150px] h-[80px]' />
+            <Image src={partner4} alt=''  className='w-[10vw] h-auto' />
         </div>
         <div >
-            <Image src={partner3} alt=''  className='w-[150px] h-[80px]' />
+            <Image src={partner3} alt=''  className='w-[10vw] h-auto' />
         </div>
         <div >
-            <Image src={partner6} alt=''  className='w-[150px] h-[80px]' />
+            <Image src={partner6} alt=''  className='w-[10vw] h-auto' />
         </div>
         <div >
-            <Image src={partner5} alt=''  className='w-[150px] h-[80px]' />
+            <Image src={partner5} alt=''  className='w-[10vw] h-auto' />
         </div>
       </div>
     </div>

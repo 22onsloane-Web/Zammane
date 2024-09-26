@@ -3,19 +3,20 @@ import React from 'react'
 import logo from '../image/logo.png'
 import { FaPhone } from "react-icons/fa6";
 import {Open_Sans} from "next/font/google"
+import thislogo from "../Image/Zammane Logo Redesignpng-02.png"
 
 const open_Sans = Open_Sans({ subsets: ["latin"] });
 
 export default function Footer() {
   return (
-    <div className='bg-[#141414] w-full h-[500px]'>
+    <div className='bg-[#0a1635] w-full h-[500px]'>
       <div className='flex items-center justify-center mx-auto '>
-        <div className='flex gap-x-[60px] pt-[80px] border-b-[1px] pb-[100px] border-[#3b3b3b]'>
-
+        <div className='flex gap-x-[60px] pt-[80px] border-b-[1px] pb-[3vw] border-[#3b3b3b]'>
             <div className='-pt-10 '>
             <div className={open_Sans.className}>
-       <span className="self-center text-2xl font-srextrabold whitespace-nowrap  font-Open_Sans text-white ">ZAMMANE</span>
-       </div>
+            {/* <span className="self-center text-2xl font-srextrabold whitespace-nowrap  font-Open_Sans text-white ">ZAMMANE</span> */}
+            <Image src={thislogo} className='w-[10vw] h-auto '  alt=''/>
+        </div>
             </div>
             <div className='pt-5 '>
                 <p className='font-bold text-[13px] text-white'>NAVIGATION</p>
@@ -24,7 +25,6 @@ export default function Footer() {
                     <p>About</p>
                     <p>Blog</p>
                     <p>Contact Us</p>
-
                 </div>
             </div>
             <div className='pt-5 '>
@@ -39,10 +39,9 @@ export default function Footer() {
             <div className='pt-5 '>
                 <p className='font-bold text-[13px] text-white'>LEGAL</p>
                 <div  className='text-[#666b6a] hover:text-[#8aa19d] font-bold mt-3  text-[14px] space-y-4'>
-                <p className='text-[#666b6a] hover:text-[#8aa19d]'>Terms of Use</p>
-                <p className='text-[#666b6a] hover:text-[#8aa19d]'>Privacy Policy</p>
-                <p className='text-[#666b6a] hover:text-[#8aa19d]'>Legal Notice</p>
-
+                  <p className='text-[#666b6a] hover:text-[#8aa19d]'>Terms of Use</p>
+                  <p className='text-[#666b6a] hover:text-[#8aa19d]'>Privacy Policy</p>
+                  <p className='text-[#666b6a] hover:text-[#8aa19d]'>Legal Notice</p>
                 </div>
             </div>
             <div className='pt-5 '>
@@ -56,7 +55,7 @@ export default function Footer() {
         </div>
       
         </div>
-        <div className='flex items-center justify-center mx-auto text-white'>
+        <div className='flex items-center justify-center mx-auto text-white mt-[3vw]'>
         <div className='flex justify-evenly items-center mx-auto gap-x-[100px]'>
             <div>
             <p className=''> GRACE ARTISAN SCHOOL Made In South Africa</p> 

@@ -8,13 +8,13 @@ import Fouter from './Footer'
 export default function Page() {
   return (
   <div className='bg-[#ffffff]'>
-      <div>
+      {/* <div>
       <Header/>
-    </div>
-    <div className='pb-[200px] min-h-screen'>
+    </div> */}
+    <div className=' min-h-screen'>
       <Banner/>
     </div>
-    <div className='mt-[50px]'>
+    <div className=''>
       <Partner/>
       <Section/>
       <div className='w-full bottom-0'>
