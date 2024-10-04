@@ -119,7 +119,7 @@ export default function Header() {
           <a href="/" className="block py-1 text-black rounded hover:bg-gray-100 md:hover:bg-transparent transition duration-300 border-b-[2px] border-[#fff] hover:border-[#3c6cc5] p-3 hover:text-[#3c6cc5] hover:border-b-[2px]   md:dark:hover:bg-transparent font-extrabold" aria-current="page">Home</a>
         </li>
         <li className='py-5'>
-          <a href="#" className="block py-1 text-black rounded hover:bg-gray-100 md:hover:bg-transparent transition duration-300 border-b-[2px] border-[#fff] hover:border-[#3c6cc5] p-3 hover:text-[#3c6cc5] hover:border-b-[2px]   md:dark:hover:bg-transparent font-extrabold">About</a>
+          <a href="#about" className="block py-1 text-black rounded hover:bg-gray-100 md:hover:bg-transparent transition duration-300 border-b-[2px] border-[#fff] hover:border-[#3c6cc5] p-3 hover:text-[#3c6cc5] hover:border-b-[2px]   md:dark:hover:bg-transparent font-extrabold">About</a>
         </li>
         <li className='py-5'>
        
@@ -128,7 +128,7 @@ export default function Header() {
          </Link>
         </li>
         <li className='py-5'>
-          <a href="#" className="block py-1 text-black rounded hover:bg-gray-100 md:hover:bg-transparent transition duration-300 border-b-[2px] border-[#fff] hover:border-[#3c6cc5] p-3 hover:text-[#3c6cc5] hover:border-b-[2px]   md:dark:hover:bg-transparent font-extrabold">Projects</a>
+          <a href="#projects" className="block py-1 text-black rounded hover:bg-gray-100 md:hover:bg-transparent transition duration-300 border-b-[2px] border-[#fff] hover:border-[#3c6cc5] p-3 hover:text-[#3c6cc5] hover:border-b-[2px]   md:dark:hover:bg-transparent font-extrabold">Projects</a>
         </li> 
         <li className='py-5'>
           <a href="/contact" className="block py-1 text-black rounded hover:bg-gray-100 md:hover:bg-transparent transition duration-300 border-b-[2px] border-[#fff] hover:border-[#3c6cc5] p-3 hover:text-[#3c6cc5] hover:border-b-[2px]   md:dark:hover:bg-transparent font-extrabold">Contact</a>

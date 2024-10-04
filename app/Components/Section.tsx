@@ -41,7 +41,7 @@ export default function Section() {
            </div>
            <div className='bg-[#fff]  mt-[0vw] shadow-xl py-[2vw]'>
             <p className='text-[1.5vw] font-bold'>Integrity</p>
-            <p className='w-[20vw] text-[0.9vw] pt-[1vw] '>Our unwavering commitment to honesty, ethics, and trust in every interaction.</p>
+            <p className='w-[20vw] text-[0.8vw] pt-[1vw] '>Our unwavering commitment to honesty, ethics, and trust in every interaction.</p>
            </div>
           </div>
 
@@ -51,7 +51,7 @@ export default function Section() {
            </div>
            <div className='bg-[#fff]  mt-[0vw] shadow-xl py-[2vw]'>
             <p className='text-[1.5vw] font-bold'>Innovation</p>
-            <p className='w-[20vw] text-[0.9vw] pt-[1vw] '>Unlocking tomorrow's opportunities through today's innovative solutions.</p>
+            <p className='w-[20vw] text-[0.8vw] pt-[1vw] '>Unlocking tomorrow's opportunities through today's innovative solutions.</p>
            </div>
           </div>
           <div className='hover:animate-pulse transition duration-300 hover:cursor-pointer'>
@@ -59,8 +59,8 @@ export default function Section() {
            <GiBank className='text-white text-[4.5vw] bg-[#d94948] p-[1vw] rounded-full '/>
            </div>
            <div className='bg-[#fff]  mt-[0vw] shadow-xl py-[2vw]'>
-            <p className='text-[1.5vw] font-bold'>Profitability</p>
-            <p className='w-[20vw] text-[0.9vw] pt-[1vw] '>Maximizing profitability through strategic growth and efficiency.</p>
+            <p className='text-[1.5vw] font-bold'>Customer-Centricity</p>
+            <p className='w-[20vw] text-[0.8vw] pt-[1vw] '>Considering our clients & customer at the heart of our business's strategy, and operations.</p>
            </div>
           </div>
         </div>

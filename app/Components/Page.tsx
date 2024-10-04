@@ -14,7 +14,7 @@ export default function Page() {
     <div className=' min-h-screen'>
       <Banner/>
     </div>
-    <div className=''>
+    <div className='' id='#about'>
       <Partner/>
       <Section/>
       <div className='w-full bottom-0'>
