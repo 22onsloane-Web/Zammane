@@ -1,8 +1,8 @@
 /*
-Theme Name: Xbuild
+Theme Name: Zammane
 Author: Gramentheme
 Author URI: https://themeforest.net/user/gramentheme
-Description: Xbuild - Constriction Html Template
+Description: Zammane - Constriction Html Template
 Version: 1.0.0
 */
 /*CSS Table Of Content Ends Here*/
@@ -6213,7 +6213,7 @@ input.main-search-input::placeholder {
   height: 100%;
   content: "";
   opacity: 0.75;
-  background: linear-gradient(180deg, #F55B1F 0%, #F55B1F 100%);
+  background: linear-gradient(180deg, #d89a29 0%, #d89a29 100%);
 }
 .service-card-items .service-image img {
   width: 100%;

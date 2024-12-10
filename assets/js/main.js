@@ -1,10 +1,10 @@
 /*-----------------------------------------------------------------
 
-Template Name: Xbuild - Constriction Html Template
+Template Name: Zammane - Constriction Html Template
 Author:  Gramentheme
 Author URI: https://themeforest.net/user/gramentheme/portfolio
 Version: 1.0.0
-Description: Xbuild - Constriction Html Template<
+Description: Zammane - Constriction Html Template<
 
 -------------------------------------------------------------------
 CSS TABLE OF CONTENTS
